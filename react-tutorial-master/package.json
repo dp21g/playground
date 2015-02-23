@@ -1,30 +1,28 @@
 {
-  "name": "react-tutorial",
-  "version": "0.0.0",
-  "description": "Code from the React tutorial.",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+  "name": "dp-tools",
+  "description": "A set of tools I use mostly",
+  "version": "0.1.0-beta.1",
+  "engines": {
+    "node": ">= 0.10.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "dependencies": {
+    "commoner": "^0.10.0",
+    "express": "^4.12.0",
+    "react": ">=0.12"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-shell": "~1.1.1",
+    "grunt-react": "~0.10.0",
+    "grunt-browserify": "~3.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-tutorial.git"
-  },
-  "keywords": [
-    "react",
-    "tutorial",
-    "comment",
-    "example"
-  ],
-  "author": "petehunt",
-  "bugs": {
-    "url": "https://github.com/reactjs/react-tutorial/issues"
-  },
-  "homepage": "https://github.com/reactjs/react-tutorial"
+    "url": "https://github.com/dp21g/"
+  }
 }
